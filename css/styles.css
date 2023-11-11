@@ -6,21 +6,20 @@
 
 body {
   background-color: black;
+  color: white;
 }
 
-.container {
+.reservation__container {
   width: 1200px;
   margin: 0 auto;
   padding: 200px 0 200px 0;
 }
 
-/* .mood {
-  width: 720px;
-  height: 720px; 
-  border-radius: 50%; 
-  filter: blur(100px);
-  background: rgba(92, 17, 13, 0.62);
-} */
+.reservation__title {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
 
 .reservation__image {
   position: relative;
@@ -35,4 +34,45 @@ body {
   z-index: -1;
   background: rgba(92, 17, 13, 0.62);
   filter: blur(100px);
+}
+
+.reservation__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation__text {
+  color: white;
+}
+
+.reservation__timer-countdown {
+    display: flex;
+    align-items: baseline;
+}
+
+.time-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c51000;
+    font-weight: bold;
+    gap: 5px;
+}
+
+#minutes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
 }

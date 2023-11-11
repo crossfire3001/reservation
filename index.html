@@ -5,16 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/timer.js" defer></script>
   </head>
   <body>
     <div class="reservation">
-      <div class="container">
-        <div class="reservation__image">
-          <img
-            src="img/reservation__burger-bg.png"
-            alt=""
-            class="reservation__burger-img"
-          />
+      <div class="container reservation__container">
+        <div class="reservation__title">Забронировать стол</div>
+        <div class="row reservation__row">
+          <div class="reservation__image">
+            <img
+              src="img/reservation__burger-bg.png"
+              alt=""
+              class="reservation__burger-img"
+            />
+          </div>
+          <div class="reservation__block">
+            <div class="reservation__text">
+              Ждем тебя в BoomBurger прямо сейчас. Оформи бронь в течение 30
+              минут и получи напиток в подарок!
+            </div>
+            <div class="reservation__timer">
+              <div class="reservation__timer-countdown" id="countdown">
+                <div class="time-block">
+                  <div class="time">
+                    <div id="minutes">1</div>
+                    <div id="minutes">1</div>
+                  </div>
+                  <div>минуты</div>
+                </div>
+
+                <div>:</div>
+                <div class="time">
+                  <div id="seconds">2</div>
+                  <div id="seconds">2</div>
+                  <div>секунды</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
