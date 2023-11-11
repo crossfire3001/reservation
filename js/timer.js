@@ -6,6 +6,11 @@ function startCountdown() {
   const minutesElement = document.getElementById("minutes");
   const secondsElement = document.getElementById("seconds");
 
+  const minutesTens = document.querySelector("[data-minutes-tens]");
+  const minutesOnes = document.querySelector("[data-minutes-ones]");
+  const secondsTens = document.querySelector("[data-seconds-tens]");
+  const secondsOnes = document.querySelector("[data-seconds-ones]");
+
   function updateTimer() {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
@@ -28,3 +33,6 @@ function startCountdown() {
 }
 
 document.addEventListener("DOMContentLoaded", startCountdown);
+
+const test = new Date().setMinutes(new Date().getMinutes() + 30);
+console.log(test);
