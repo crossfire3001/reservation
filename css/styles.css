@@ -47,32 +47,58 @@ body {
 }
 
 .reservation__timer-countdown {
-    display: flex;
-    align-items: baseline;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
 }
 
 .time-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .time {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #c51000;
-    font-weight: bold;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c51000;
+  font-weight: bold;
+  gap: 5px;
 }
 
 #minutes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.divider {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #c51000;
+  font-weight: bold;
+}
+
+#seconds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
 }
