@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* .mood {
+  width: 720px;
+  height: 720px; 
+  border-radius: 50%; 
+  filter: blur(100px);
+  background: rgba(92, 17, 13, 0.62);
+} */
+
+.reservation__burger-img {
+  top: calc(50% - 280px);
+}
